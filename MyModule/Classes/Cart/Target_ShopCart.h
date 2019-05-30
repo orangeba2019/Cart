@@ -1,5 +1,5 @@
 //
-//  Target_Home.h
+//  Target_ShopCart.h
 //  OBModuleDemo
 //
 //  Created by syh on 2019/2/22.
@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface Target_Home : NSObject
+@interface Target_ShopCart : NSObject
 
-- (UIViewController *)Action_nativeHomeController:(NSDictionary *)params;
+- (UIViewController *)Action_nativeShopCartController:(NSDictionary *)params;
 
 @end
+
 

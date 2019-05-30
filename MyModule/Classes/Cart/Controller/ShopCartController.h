@@ -1,5 +1,5 @@
 //
-//  HomeController.h
+//  ShopCartController.h
 //  OBModuleDemo
 //
 //  Created by syh on 2019/2/22.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeController : UIViewController
+@interface ShopCartController : UIViewController
+
+@property (nonatomic, copy) NSString *goodsName;
 
 @end
+
